@@ -54,6 +54,10 @@ the entrance of the application is `index.js`, on folder `database` All files cr
 
 #### Folder Database
 
+Easiest way to get a seeded database is with:
+
+`npm run prepare-db`
+
 In the database folder you already have two models and the migration files for creating two `Posts` and `Users` tables with a relationship. to create these tables, make with Sequelize:
 
 `sequelize db:migrate`
