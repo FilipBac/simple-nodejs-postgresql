@@ -12,7 +12,7 @@ app.use('/api', [UserRoutes, PostRoutes]);
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, (err) => {
+app.listen(PORT, '::', (err) => {
   if (err) {
     console.error(`👽Houston we have a problem : ${err} ☠️`);
   }
